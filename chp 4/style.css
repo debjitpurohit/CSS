@@ -1,0 +1,16 @@
+
+.box1{
+width: 431px;
+height: 1134px;
+background-color: red;
+display:inline-block;
+/* visibility: hidden;   notes*/
+text-align: end; /*only text will move*/
+
+}
+.box2{
+width: 431px;
+height: 1134px;
+background-color: blue;
+display:inline-block;
+text-align: center;}

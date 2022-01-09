@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media quaries</title>
+    <!--media quaries added here in css to make the wesite responsive-->
+    <style>
+        .container{
+            background-color: red;
+            height: 100vh;
+            width: 100vw;
+         }
+        /*when  screen width less than or equal to 800px{ from 0 to 800 px} its bc become yellow thats called responsiveness*/
+        @media screen and (max-width: 800px) {
+            .container{
+                background-color: yellow;
+             
+        }
+
+    }
+    /*when screen width =<200px then its bc become greenyellow*/
+        @media screen and (max-width: 200px) {
+            .container{
+                background-color:greenyellow;
+             
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic deserunt recusandae omnis quas exercitationem sed esse nisi adipisci vero quibusdam expedita, reiciendis enim impedit laborum! Qui deserunt doloribus maiores recusandae ducimus, eligendi consectetur error!
+    </div>
+</body>
+</html>

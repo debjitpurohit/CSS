@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website layout 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;padding: 0;
+        }
+        .navbar{
+            height: 70px;
+            background-color: black;
+            color: tomato;
+        }
+
+        .right{
+            height: 85vh;
+            /*duto div er majhe space dile majhe ekta white space toiri hbe jeta width ta k 50%+50% = 100% hote debe nah*/
+            width: 50%;
+            background-color: red;
+            display: inline-block;
+            
+
+        }
+        .navbar ul li a{
+            color: white;
+            text-decoration: none;
+          
+        }
+        .navbar ul li{
+            display: inline;
+            margin: 24px 83px;
+            font-weight: 900;
+            font-size: 37px;
+            font-style: italic;
+        }
+        .left{
+            height: 85vh;
+            width: 50%;
+            background-color: royalblue;
+            display: inline-block;
+
+        }
+        footer{
+            text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: violet;
+            text-transform: uppercase;
+
+        }
+    </style>
+</head>
+<body>
+<!-- jehetu div is a block element so it allinged in blocks-->    
+    <div class="navbar">
+        <ul>
+            <li> <a href="#">Home</a></li><li><a href="#">About</a></li><li><a href="#">contact</a></li>
+        </ul>
+
+    </div>
+    <div class="right">
+        Lorem ipsum dolor sit amet.
+
+    </div><div class="left">
+        Lorem ipsum dolor sit.
+
+    </div>
+    <footer>
+        debjit &#10084; PUROHIT
+    </footer>
+</body>
+</html>

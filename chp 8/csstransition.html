@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container{
+          background-color: red;
+          height: 146px;
+
+      }
+      .box1{
+          border: 2px solid black;
+          display: inline-block; 
+
+         
+      }
+      /*hover used for choto boro krarjoonon mouse er cuser niye gele*/
+       #ami:hover{ 
+         height: 400px;
+         width: 546px;
+        }   
+  
+
+      
+      #ami{
+          height: 200px; 
+          width: 146px;
+          /* transition-property: width; */
+          /* transition-property: height; */
+
+          /* transition-duration: 1s;
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-delay: 3s;  */
+          /* transition: width 1s ease-in 2s; */
+          transition: width 1s ease-in , height 4s ease-in;
+      }
+  </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="debu.jpg" id="ami">
+            <button id="btn">Toggle</button>
+        </div>
+        <!-- <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div> -->
+    </div>
+    
+</body>
+<script>
+    ami.style.width="146px";
+    ami.style.height ="200px";
+
+
+    btn.addEventListener("click",()=>{
+        if(ami.style.width==='546px', ami.style.height ==="400px" ){
+            ami.style.width="146px"
+            ami.style.height ="200px"
+        }
+        else if(ami.style.width==='146px',ami.style.height==='200px'){
+            ami.style.width="546px"
+            ami.style.height ="400px"
+        }
+
+    })
+
+</script>
+</html>

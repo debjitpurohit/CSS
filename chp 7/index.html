@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container{
+          
+            display: grid;
+            background-color: aqua;
+            height: 56vh;
+            /* grid-row-gap: 9px;
+            grid-column-gap: 9px; */
+            grid-gap: 10px 9px;
+            /* grid-template-columns: 343px 350px auto ; /*no of auto= no of column  4 auto 4 column*/
+            /* grid-template-rows: 343px 350px auto ;  */
+            grid-template-columns: auto auto auto auto;
+        }
+        /*have 5 column lines*/
+        .item{
+        
+           background-color: beige;
+            border: 2px solid red;
+          
+
+        }
+        #debu{
+            background-color: chartreuse;
+            grid-column: 1/4 ; /*expand debu by 3 line   ...  span4 means 5*/
+        }
+        #sneha{
+            background-color: chartreuse;
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="debu">1</div>
+        <div class="item" >2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item" id="sneha">9</div>
+      
+
+        
+    
+    </div>
+</body>
+</html>

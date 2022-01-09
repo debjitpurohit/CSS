@@ -1,0 +1,16 @@
+
+.box1{
+    background-color: red;
+    height: 200px;
+    width: 600px;
+}
+/*prothom e jokhon height and width dicchi ota sudhu content er dicchi .....jokon box sizing e border box korbo box2 er width height kome jeye box 1 er sthe set hobe */
+.box2{
+    background-color: aqua;
+    height: 200px;
+    width: 600px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+   
+} 

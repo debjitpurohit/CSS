@@ -1,0 +1,19 @@
+*{
+    margin: 0;padding: 0;
+}
+.box1{
+    background-color: red;
+    border: 4px solid black;
+    padding: 13px;
+    margin: 34px;
+    height: 40px;
+}
+/* bottom margin of box1 and top margin of box2 become collapsed and margin is collapsed to the bigger margin and distance between b1and b2 is 34px(the bigger one)*/
+.box2{
+    background-color: aqua;
+    border: 4px solid black;
+    padding: 13px;
+    margin: 24px;
+    height: 40px;
+
+}
